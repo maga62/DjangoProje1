@@ -1,0 +1,28 @@
+{% extends "homebase.html" %}
+
+{% block title %} Iletisim-{{ setting.company }}{% endblock %}
+{% block keywords %}{{ setting.keywords }}{% endblock %}
+{% block description %}{{ setting.description }}{% endblock %}
+
+{% block head %}
+    <link rel ='shortcut icon' type='image/x-icon' href='{{ setting.icon.url }}'/>
+{% endblock %}
+
+
+
+{% block content %}
+        <div class="breadcrumb">
+        <div class="container">
+            <a class="breadcrumb-item" href="/">Anasayfa</a>
+            <span class="breadcrumb-item active">Iletisim</span>
+        </div>
+    </div>
+    <section class="static about-sec">
+        <div class="container">
+            {{ setting.contact | safe }}
+{#            safe ladirirsak html tag seklinde textler verir ekrana #}
+
+        </div>
+    </section>
+
+{% endblock %}
