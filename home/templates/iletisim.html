@@ -11,18 +11,42 @@
 
 
 {% block content %}
-        <div class="breadcrumb">
-        <div class="container">
-            <a class="breadcrumb-item" href="/">Anasayfa</a>
-            <span class="breadcrumb-item active">Iletisim</span>
+        <div class="static about-sec">
+            <div class="container">
+                <a class="breadcrumb-item" href="/">Anasayfa</a>
+                <span class="breadcrumb-item active">Iletisim</span>
+            </div>
         </div>
-    </div>
+
     <section class="static about-sec">
         <div class="container">
-            {{ setting.contact | safe }}
-{#            safe ladirirsak html tag seklinde textler verir ekrana #}
-
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="contact-title">Iletiisim Formu</h2>
+                </div>
+                <div class="col-lg-5">
+                    <form action="" method="post" class="form-cotact contact_form">
+                        <div class="row">
+                            <div class="col-12">
+                            {% csrf_token %}
+                                {{ form.as_p }}
+                             <div class="form-group mt-3">
+                                 <input type="submit" class="btn black" value="SEND FORM">
+                             </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="contact-title"> Iletisim Bilgilerimiz</h2>
+                    <span class="contact-info__icon"><i class="ti-home"></i> </span>
+                    <div class="media-body">
+                        <h3> {{ setting.contact | safe }}</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+
+ </section>
 
 {% endblock %}
