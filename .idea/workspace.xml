@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="471b22cf-db07-4623-bea5-69f2183ba47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/book-store/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/book-store/html/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizda.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +128,8 @@
       <workItem from="1586573081162" duration="5094000" />
       <workItem from="1586579535962" duration="5413000" />
       <workItem from="1586632197302" duration="2810000" />
-      <workItem from="1586635045744" duration="1641000" />
+      <workItem from="1586635045744" duration="1761000" />
+      <workItem from="1586673500422" duration="10592000" />
     </task>
     <task id="LOCAL-00001" summary="header.html degisiklik yaptum">
       <created>1585939859130</created>
@@ -190,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586559509110</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dosyayi 13. vidio ya guncelledim referanslarimiz.html">
+      <created>1586636722279</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586636722279</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +214,8 @@
     <MESSAGE value="dosyayi 11. vidio ya guncelledim" />
     <MESSAGE value="dosyayi 11. vidio ya guncelledim manage.py dosyasindaki setting s takisi hatasi giderilmisdir" />
     <MESSAGE value="dosyayi 12. vidio ya guncelledim referanslarimiz.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="dosyayi 12. vidio ya guncelledim referanslarimiz.html" />
+    <MESSAGE value="dosyayi 13. vidio ya guncelledim referanslarimiz.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="dosyayi 13. vidio ya guncelledim referanslarimiz.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="94" key="#Inspections" timestamp="1586569569164">
@@ -226,10 +238,10 @@
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
     <state x="2362" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.0.1366.768@1920.0.1366.768" timestamp="1585239119163" />
-    <state x="426" y="16" key="CommitChangelistDialog2" timestamp="1586559508637">
+    <state x="426" y="16" key="CommitChangelistDialog2" timestamp="1586636721754">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="426" y="16" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586559508637" />
+    <state x="426" y="16" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586636721754" />
     <state x="426" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585940941850" />
     <state x="521" y="160" key="FileChooserDialogImpl" timestamp="1586634823512">
       <screen x="0" y="0" width="1536" height="864" />
@@ -276,21 +288,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="279" y="78" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585417334989" />
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1586636702221">
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1586636766834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586636702221" />
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586636766834" />
     <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585941383364" />
-    <state x="477" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1586635046232">
+    <state x="477" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1586673500753">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="477" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586635046232" />
+    <state x="477" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586673500753" />
     <state x="2344" y="231" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1366.768@1920.0.1366.768" timestamp="1585253825296" />
     <state x="477" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1586549187629" />
-    <state x="197" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586559514645">
+    <state x="197" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586684723420">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="197" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586559514645" />
+    <state x="197" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1586684723420" />
     <state x="197" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1585940788371" />
   </component>
   <component name="XDebuggerManager">

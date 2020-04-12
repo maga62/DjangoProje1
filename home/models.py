@@ -40,6 +40,7 @@ class ContactFormMessage(models.Model):
         STATUS = (
             ('New', 'New'),
             ('Read', 'Read'),
+            ('Closed', 'Closed'),
         )
         name = models.CharField(blank=True, max_length=20)
         email = models.CharField(blank=True, max_length=50)

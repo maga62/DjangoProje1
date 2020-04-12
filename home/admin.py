@@ -5,7 +5,7 @@ from home.models import Settings, ContactFormMessage
 
 
 class ContactFromMessageAdmin(admin.ModelAdmin):
-    list_display = ['name','email','subject','status']
+    list_display = ['name','email','subject','message','note','status']
     list_filter = ['status']
 
 admin.site.register(ContactFormMessage, ContactFromMessageAdmin)

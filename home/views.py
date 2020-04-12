@@ -5,11 +5,15 @@ from django.contrib import messages
 from django.http import HttpResponseRedirect
 # Create your views here.
 from home.models import Settings, ContactFormMessage, ContactFormu
+from product.models import Product
 
 
 def index(request):
     setting = Settings.objects.get(pk=1)
-    context = {'setting': setting,'page':'home'}
+    sliderdata =Product.objects.all()[:4]
+    context = {'setting': setting,
+               'page':'home',
+               'sliderdata':sliderdata}
     return render(request, 'index.html', context)
 
 def hakkimizda(request):
@@ -31,6 +35,7 @@ def iletisim(request):
             data.email =form.cleaned_data['email']
             data.subject=form.cleaned_data['subject']
             data.message=form.cleaned_data['message']
+            data.ip = request.META.get('REMOTE_ADDR')
             data.save()
             messages.success(request, "mesajiniz basarili bir sekilde gonderilmisdir")
             return HttpResponseRedirect('/iletisim')
